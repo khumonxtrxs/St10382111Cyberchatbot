@@ -1,10 +1,14 @@
-﻿namespace St10382111Cyberchatbot
+﻿using St10382111Cyberchatbot;
+using System;
+
+namespace CyrexCyberChatbot
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            AsciiPage.Show();
+            Identity.NamePrompt();
         }
     }
 }
