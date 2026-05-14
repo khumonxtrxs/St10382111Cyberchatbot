@@ -32,8 +32,6 @@ namespace St10382111Cyberchatbot
 
             Loaded += OnLoaded;
         }
-
-  ─
         private void OnLoaded(object sender, RoutedEventArgs e)
         {
             // Show the ASCII art welcome
@@ -59,8 +57,6 @@ namespace St10382111Cyberchatbot
             BtnVoice.Content = _voiceEnabled ? "🔊" : "🔇";
             SetStatus(_voiceEnabled ? "Voice enabled." : "Voice muted.");
         }
-
-      ─
         // MAIN HANDLER
      
         private async void HandleSend()
