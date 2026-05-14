@@ -15,26 +15,8 @@ The Cyrex chat window will open, enter your name to begin
 Requirements: .NET 10.0 (Windows), Windows OS
 
 
-Project Structure
-St10382111Cyberchatbot/
-│
-├── Assets/
-│   └── CyrexChat.wav           ← Startup greeting sound
-│
-├── Models/
-│   └── Sentiment.cs            ← SentimentResult &  SentimentDetector class
-│
-├── Utilities/
-│   ├── AsciiHelper.cs          ← ASCII art border and type effect from part 1
-│   └── HelperSpeech.cs         ← WAV playback and text-to-speech
-│
-├── App.xaml / App.xaml.cs      ← WPF application entry point
-├── ChatWindow.xaml             ← GUI layout
-├── ChatWindow.xaml.cs          ← Window logic and chat bubble rendering
-├── AsciiPage.cs                ← ASCII banner class
-├── Cyrex.cs                    ← Chatbot logic
-├── Identity.cs                 ← User name prompt and storage
-└── St10382111Cyberchatbot.csproj
+<img width="812" height="516" alt="image" src="https://github.com/user-attachments/assets/790d276e-ac33-4a0a-891e-8c8b53ffec1f" />
+
 
 <img width="840" height="558" alt="Screenshot 2026-05-14 142951" src="https://github.com/user-attachments/assets/eb4841ca-3eb8-47ec-8fa7-50f932e03fb1" />
 
