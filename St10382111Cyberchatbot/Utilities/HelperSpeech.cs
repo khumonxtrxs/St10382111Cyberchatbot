@@ -3,13 +3,14 @@ using System.IO;
 using System.Media;
 using System.Speech.Synthesis;
 
-namespace St10382111Cyberchatbot.Utilities{
-
+namespace St10382111Cyberchatbot.Utilities
+{
     public static class HelperSpeech
     {
         public static void PlayGreeting()
         {
-            string filePath = "C:\\Users\\Khumo Twala\\source\\repos\\St10382111Cyberchatbot\\St10382111Cyberchatbot\\CyrexChat.wav";
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "CyrexChat.wav");
+
             if (File.Exists(filePath))
             {
                 using (SoundPlayer player = new SoundPlayer(filePath))
@@ -19,7 +20,7 @@ namespace St10382111Cyberchatbot.Utilities{
             }
             else
             {
-                Console.WriteLine("Warning: Cyrex.wav not found.");
+                Console.WriteLine("Warning: CyrexChat.wav not found.");
             }
         }
 
